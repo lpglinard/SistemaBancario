@@ -35,6 +35,5 @@ class TransacaoServiceTest {
         List<Transacao> transacoes = transacaoServiceFake.recuperarTransacoes(conta.getNumero());
 
         assertEquals(Collections.emptyList(), transacoes);
-_
     }
 }
