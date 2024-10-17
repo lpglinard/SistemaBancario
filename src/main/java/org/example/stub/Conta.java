@@ -17,7 +17,7 @@ public class Conta {
         return saldo;
     }
 
-    public void depositar(double valor) {
+    public void depositar (double valor) {
         if (valor > 0) {
             this.saldo += valor;
         }
